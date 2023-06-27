@@ -17,7 +17,6 @@ export const Order = model(
     createdAt: {
       type: Date,
       default: Date.now,
-      required: true,
     },
     products: {
       required: true,
